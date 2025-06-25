@@ -13,3 +13,4 @@ console.log(nameNHobbies(fullName('Francesco', 'Colucci'), hobbies('Mtb', 'Watch
 console.log(nameNHobbies(fullName('Paolo', 'Duzioni'), hobbies('No-bug code', 'Stardew Valley', 'Hungary')));
 console.log(nameNHobbies(fullName('Artur', 'Mamedov'), hobbies('Freud', 'Clean Coding', 'Backend')));
 console.log(nameNHobbies(fullName('Fabio ', 'Pacifici'), hobbies('Php', 'Cats', 'Star Wars')));
+console.log(nameNHobbies(fullName('Marco ', 'Lancillotti'), hobbies('Boolean', 'Languages', 'Sicily')));
