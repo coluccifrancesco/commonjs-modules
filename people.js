@@ -1,8 +1,12 @@
 const fullName = require('./names');
 const hobbies = require('./hobbies')
 
-function pNameNHobbies (){
-    return fullName() + hobbies()
+function nameNHobbies (){
+
+    return {
+        fullName: fullName('Francesco', 'Colucci'),
+        hobbies: hobbies('x', 'y', 'z')
+    }
 }
 
-console.log(pNameNHobbies());
+console.log(nameNHobbies());
