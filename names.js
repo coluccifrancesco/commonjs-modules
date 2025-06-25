@@ -1,7 +1,6 @@
 function name (firstName, lastName){
-    const personName = firstName + ' ' +lastName;
-    console.log(personName);
-    return personName
+    return firstName + ' ' + lastName;
 }
+console.log(name('Francesco', 'Colucci'));
 
 module.exports = name;
